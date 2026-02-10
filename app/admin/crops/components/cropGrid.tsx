@@ -49,22 +49,3 @@ export const CropCard = ({ data }: { data: CropGridType }) => {
     </div>
   );
 };
-
-// export default function CropGrid({ searchValue }: { searchValue: string }) {
-//   const filteredCrops = CropGridData.filter((e) =>
-//     e.cropName.includes(searchValue.toUpperCase()),
-//   );
-//   if (filteredCrops.length === 0) {
-//     return (
-//       <div className="text-center py-12 text-gray-500">No crops available</div>
-//     );
-//   }
-
-//   return (
-//     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mx-5 mt-10">
-//       {filteredCrops.map((crop) => (
-//         <CropCard key={crop.cropId} crop={crop} />
-//       ))}
-//     </div>
-//   );
-// }
